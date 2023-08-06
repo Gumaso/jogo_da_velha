@@ -43,8 +43,15 @@ else:
         print('vitoria do O')
     elif tabuleiro[2][0] == 'O' and tabuleiro[2][1] == 'O' and tabuleiro[2][1] == 'O':
         print('vitoria do O')
-
-
+    # linhas verticais
+    elif tabuleiro[0][0] == 'X' and tabuleiro[1][1] == 'X' and tabuleiro[2][2] == 'X':
+        print('vitoria do X')
+    elif tabuleiro[0][0] == 'O' and tabuleiro[1][1] == 'O' and tabuleiro[2][2] == 'O':
+        print('vitoria do O')
+    elif tabuleiro[0][2] == 'X' and tabuleiro[1][1] == 'X' and tabuleiro[2][0] == 'X':
+        print('vitoria do X')
+    elif tabuleiro[0][2] == 'O' and tabuleiro[1][1] == 'O' and tabuleiro[2][0] == 'O':
+        print('vitoria do O')
 
 
 
