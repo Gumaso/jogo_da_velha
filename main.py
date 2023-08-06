@@ -29,7 +29,20 @@ else:
     elif tabuleiro[0][2] == 'O' and tabuleiro[1][2] == 'O' and tabuleiro[2][2] == 'O':
         print('vitoria do O')
 
+    # linhas horizontais
+    elif tabuleiro[0][0] == 'X' and tabuleiro[0][1] == 'X' and tabuleiro[0][1] == 'X':
+        print('vitoria do X')
+    elif tabuleiro[1][0] == 'X' and tabuleiro[1][1] == 'X' and tabuleiro[1][1] == 'X':
+        print('vitoria do X')
+    elif tabuleiro[2][0] == 'X' and tabuleiro[2][1] == 'X' and tabuleiro[2][1] == 'X':
+        print('vitoria do X')
 
+    elif tabuleiro[0][0] == 'O' and tabuleiro[0][1] == 'O' and tabuleiro[0][1] == 'O':
+        print('vitoria do O')
+    elif tabuleiro[1][0] == 'O' and tabuleiro[1][1] == 'O' and tabuleiro[1][1] == 'O':
+        print('vitoria do O')
+    elif tabuleiro[2][0] == 'O' and tabuleiro[2][1] == 'O' and tabuleiro[2][1] == 'O':
+        print('vitoria do O')
 
 
 
